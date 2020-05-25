@@ -1,0 +1,42 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    padding:10px;
+}
+
+h4{
+    color: #069;
+}
+
+.navbar{
+    background-color:#FFF;
+}
+
+
+
+.quemsomos{
+    background-color: #069;
+    color: #FFF;
+}
+
+
+.parceiros{
+    background-color: #F4F6F6;
+}
+
+.servicos{
+    background-color:#B2BABB;
+}
+
+.margim{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.bg-footer{
+    background-color:#148F77;
+    color:#FFF;
+
+}
