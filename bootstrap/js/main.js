@@ -1,1 +1,5 @@
-alert("Meu primeiro programa");
+
+
+function siteemManutencao(){
+    alert("Aguardem site em manutenção");
+}
