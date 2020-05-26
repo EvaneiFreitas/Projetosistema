@@ -27,10 +27,17 @@ session_start();
 		<!--INICIO DO FORMULÁRIO DE TESTES-->
 		<form action="script.php" method="POST">
 		<?php
+			
+			$MensagemDeSucesso = isset($_SESSION['mensagem-de-sucesso']) ? $_SESSION['mensagem-de-sucesso'] :'';
+			if(!empty($MensagemDeSucesso)){
+				echo $MensagemDeSucesso;
+			}
+			
 			$MensagemDeErro = isset($_SESSION['mensagem-de-erro']) ? $_SESSION['mensagem-de-erro'] :'';
 			if(!empty($MensagemDeErro)){
 				echo $MensagemDeErro;
 			}
+
 		?>
 			<fieldset>
 				<h2>FORMULARIO PARA TESTES</h2>
