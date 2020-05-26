@@ -28,6 +28,10 @@ if(strlen($nome)  > 40){
    echo " nome muito grande!";
    return;
 }
+if(!is_numeric($idade)){
+   echo "Você deve digitar numeros para idade!";
+   return;
+}
 
 
 
