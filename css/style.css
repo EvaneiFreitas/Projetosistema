@@ -12,13 +12,17 @@ h4{
 
 .navbar{
     background-color:#FFF;
+    padding-bottom: 30px;
 }
 
-
+.menuSuperior{
+    padding-bottom:75px;
+}
 
 .quemsomos{
     background-color: #069;
     color: #FFF;
+    padding-top: 10px;
 }
 
 
