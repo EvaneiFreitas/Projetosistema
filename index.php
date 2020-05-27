@@ -64,10 +64,8 @@
   </header>
   
 
-    <!-- CORPO DO SITE - teste -->
-
-     
-<link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+    <!-- CARROCEL-->    
+<link href="#" rel="stylesheet">
 
 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
@@ -120,48 +118,6 @@
   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
 <!--slide end--> 
     
-
-
-
-
-
-
-
-
-
-    <!-- CORPO DO SITE TESTE-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-    <!--
-    <section id="quem-somos">
-       <div class="container-fluid quemsomos text-center margim">
-           <h3 class="margim">Quem Somos ....</h3>
-           <img class="rounded-circle" src="img/site1.jpeg" width="300" height="300" alt="" title="">
-           <h3>Somos um time comprometido e com foco em resultados...</h3>
-       </div>
-    </section>
-    -->
-  
-
   <!-- INICIO SESSION PARCEIROS -->
 
   <section id="Parceiros" class="our-webcoderskull padding-lg">
@@ -253,43 +209,79 @@
     </ul>
   </div>
 </section>
+<!-- FIM DOS TESTE -->
 
 
-  <!-- FIM DOS TESTE -->
 
-    <section class="" id="Serviços">
-            <div class="container-fluid text-center margim servicos">
-                <h3>Serviços</h3>
-                <div class="container">
-                      <div class="row">
+  <!-- INICIO DA SESSION LOGIN-->
+<section class="">
+    <div class="container">
+	<div class="row">
+		<div class="col-md-4 login-sec">
+		    <h2 class="text-center">Login</h2>
+		    <form class="login-form">
+  <div class="form-group">
+    <label for="exampleInputEmail1" class="text-uppercase">Username</label>
+    <input type="text" class="form-control" placeholder="">
+    
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1" class="text-uppercase">Password</label>
+    <input type="password" class="form-control" placeholder="">
+  </div>
+  
+  
+    <div class="">
+    <button type="submit" class="btn btn-login btn-primary">Submit</button>
+  </div>
+  
+</form>
+<div class="copy-text"><a href="#"></a></div>
+</div>
 
-                          <div class="col-md-4">
-                              <p>
-                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                              </p>
-                              <img class="" src="img/site2.jpeg" width="100%" height="" alt="" title="">
-                          </div>
 
-                          <div class="col-md-4">
-                              <p>
-                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                              </p>
-                              <img class="" src="img/site2.jpeg" width="100%" height="" alt="" title="">
-                          </div>
-
-                          <div class="col-md-4">
-                              <p>
-                                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
-                              </p>
-                              <img class="" src="img/site2.jpeg" width="100%" height="" alt="" title="">
-                          </div>
-                          
-                      </div>
-                 </div>
-             </div>
-          
-      </section>
-
+		<div class="col-md-8 banner-sec">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                 <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+            <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <img class="d-block img-fluid" src="https://static.pexels.com/photos/33972/pexels-photo.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2>Nossos Serviços - Feitos</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/7097/people-coffee-tea-meeting.jpg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2>Manutenção em notebook</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+    </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="https://images.pexels.com/photos/872957/pexels-photo-872957.jpeg" alt="First slide">
+      <div class="carousel-caption d-none d-md-block">
+        <div class="banner-text">
+            <h2>Manutenção em Tvs</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        </div>	
+    </div>
+  </div>
+            </div>	   
+		    
+		</div>
+	</div>
+</div>
+</section>
+<!-- FIM DA SESSION LOGIN -->
 
     <footer class="container-fluid text-center margim bg-footer">
         <p>Desenvolvido por: Evanei Freitas - W&D Informática </p>
